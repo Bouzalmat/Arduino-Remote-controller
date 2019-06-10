@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Choose an action"
+       android:layout_centerInParent="true"
+       android:layout_alignParentTop="true"
+       android:textSize="30sp"
+       android:textColor="#ffffff"
+       android:layout_marginTop="60dp"
+       android:textStyle="bold"
+       android:fontFamily="sans-serif-smallcaps"/>
+
+    <Button
+        android:id="@+id/up_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_round"
+        android:text="UP"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/left_btn"/>
+
+    <Button
+        android:id="@+id/down_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_round"
+        android:text="Down"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/left_btn"/>
+
+    <Button
+        android:id="@+id/left_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_round"
+        android:text="Left"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp" />
+
+    <Button
+        android:id="@+id/right_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_round"
+        android:text="Right"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp" />
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Stop"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff" />
+</RelativeLayout>
